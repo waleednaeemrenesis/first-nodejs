@@ -1,5 +1,5 @@
 {
- “name”: “node-app”,
+ “name”: “first-nodejs”,
  “description”: “hello jenkins test app”,
  “version”: “0.0.1”,
  “private”: true,
