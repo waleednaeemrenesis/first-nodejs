@@ -1,6 +1,6 @@
 {
  “name”: “first-nodejs”,
- “description”: “hello jenkins”,
+ “description”: “hello”,
  “version”: “0.0.1”,
  “private”: true,
  “dependencies”: {
