@@ -1,6 +1,6 @@
 {
  “name”: “first-nodejs”,
- “description”: “hello scm manager”,
+ “description”: “hello scm ”,
  “version”: “0.0.3”,
  “private”: true,
  “dependencies”: {
