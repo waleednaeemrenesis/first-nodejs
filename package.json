@@ -1,10 +1,10 @@
 {
  “name”: “first-nodejs”,
  “description”: “hello”,
- “version”: “0.0.1”,
+ “version”: “0.0.2”,
  “private”: true,
  “dependencies”: {
-    “express”: “3.12.0”
+    “express”: “4.16.1”
  },
  “devDependencies”: {
     “mocha”: “1.20.1”,
