@@ -1,13 +1,12 @@
-{
- “name”: “first-nodejs”,
- “description”: “hello jenkins test app”,
- “version”: “0.0.1”,
- “private”: true,
- “dependencies”: {
-    “express”: “3.12.0”
- },
- “devDependencies”: {
-    “mocha”: “1.20.1”,
-    “supertest”: “0.13.0”
- }
-}
+//importing node framework
+var express = require(‘express’);
+ 
+var app = express();
+//Respond with "hello world" for requests that hit our root "/"
+app.get(‘/’, function (req, res) {
+ res.send(‘hello world’);
+});
+//listen to port 3000 by default
+app.listen(process.env.PORT || 3000);
+ 
+module.exports = app;
